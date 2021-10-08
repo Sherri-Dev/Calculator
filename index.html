@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6e8abed0ab.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="active">
+    <div class="center-align">
+        <div id="dark" class="content active">
+            <header>
+                <h1> Calculator</h1>
+                <div id="toggle">
+                    <i id="day" class="far fa-sun indicator "></i>
+                    <i id="night" class="far fa-moon indicator active"></i>
+                </div>
+            </header>
+            <div class="screen">
+                <div class="scr1">0</div>
+                <div class="scr2">0</div>
+                <div class="scr3">0</div>
+            </div>
+            <table>
+                <tr>
+                    <td class="rod" id="clear">AC</td>
+                    <td class="rod" id="del">Del</td>
+                    <td id="square">x<sup><small>2</small></sup></td>
+                    <td id="cube">x<sup><small>3</small></sup></td>
+                    <td class="trigno">sin</td>
+                </tr>
+                <tr class="small">
+
+                    <td id="sqrt"><i>&#8730</i></td>
+                    <td class="trigno">sin<sup><small>-1</small></sup></td>
+                    <td class="trigno">cos<sup><small>-1</small></sup></td>
+                    <td class="trigno">tan<sup><small>-1</small></sup></td>
+                    <td class="trigno">cos</td>
+                </tr>
+                <tr>
+                    <td class="number">7</td>
+                    <td class="number">8</td>
+                    <td class="number">9</td>
+                    <td class="opr">/</td>
+                    <td class="trigno">tan</td>
+                </tr>
+                <tr>
+                    <td class="number">4</td>
+                    <td class="number">5</td>
+                    <td class="number">6</td>
+                    <td class="opr">x</td>
+                    <td class="log">log</td>
+                </tr>
+                <tr>
+                    <td class="number">1</td>
+                    <td class="number">2</td>
+                    <td class="number">3</td>
+                    <td class="opr">-</td>
+                    <td class="log">ln</td>
+                </tr>
+                <tr>
+                    <td class="number">0</td>
+                    <td class="number">.</td>
+                    <td class="rod equal">=</td>
+                    <td class="rod opr" colspan="2">+</td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="app.js "></script>
+
+</html>
